@@ -1,0 +1,16 @@
+body {
+    background-color: beige;
+}
+
+.cool {
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: background-color 1000ms ;
+}
+
+.cool.red {
+    background-color: red;
+    display: block;
+}
